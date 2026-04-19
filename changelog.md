@@ -1,3 +1,10 @@
+19/04/2026 11:24 EDT Revise main.ipynb to compare both neural networks
+- Replaced the single-model notebook flow with a side-by-side comparison workflow for BaselineCNN and ResidualCNN
+- Added repository root detection and direct imports from the local models package
+- Configured the notebook to load the same noisy input image and both trained checkpoints
+- Saved baseline and residual outputs to results/ and displayed noisy, baseline, and residual images together
+- Added a simple output-difference metric to make the model comparison explicit
+
 18/04/2026 00:25 EDT Squash commits into single push
 - Used git reset --soft to combine all recent commits into one
 - Removed accidentally staged data files to respect .gitignore
