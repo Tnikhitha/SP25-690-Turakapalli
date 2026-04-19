@@ -1,3 +1,9 @@
+19/04/2026 11:28 EDT Add general and mathematical comparison to main.ipynb
+- Expanded the notebook beyond visual comparison to include a general neural network comparison section
+- Added model-level comparison details such as parameter count, skip-connection usage, and denoising strategy
+- Added mathematical image comparison metrics including MSE, MAE, PSNR, and SSIM
+- Compared baseline output, residual output, and their relationship to the shared noisy input
+
 19/04/2026 11:24 EDT Revise main.ipynb to compare both neural networks
 - Replaced the single-model notebook flow with a side-by-side comparison workflow for BaselineCNN and ResidualCNN
 - Added repository root detection and direct imports from the local models package
