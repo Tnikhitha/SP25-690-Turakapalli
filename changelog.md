@@ -1,3 +1,9 @@
+19/04/2026 11:40 EDT Execute main.ipynb through Jupyter server
+- Installed the required Jupyter notebook tooling into the project virtual environment
+- Started a local Jupyter server and executed main.ipynb successfully
+- Generated main.executed.ipynb with captured outputs from the comparison workflow
+- Confirmed the notebook produced baseline and residual output images plus model and image-metric comparisons
+
 19/04/2026 11:28 EDT Add general and mathematical comparison to main.ipynb
 - Expanded the notebook beyond visual comparison to include a general neural network comparison section
 - Added model-level comparison details such as parameter count, skip-connection usage, and denoising strategy
